@@ -1,142 +1,146 @@
-
-  body {
-    background-color: #222;
-    align-items: center;
-    font-family: 'Ubuntu', sans-serif;
-    color: goldenrod;
-  }
-
-
-
-  h1 {
-    margin: 2rem auto 0.5rem auto;
-    font-family: 'Amatic SC', cursive;
-    color: #d5d5d3;
-  }
-
-  h2 {
-    /* font-family: 'Zen Dots', cursive; */
-    font-family: 'Kdam Thmor Pro', sans-serif;
-    color: #d5d5d3;
-    margin: 0.5rem auto;
-  }
-
-  hr {
-    border: dashed goldenrod 0.5rem;
-    border-bottom: none;
-    margin: 0 auto;
-    width: 20%;
-  }
-
-
-
-
-  .ico {
-    height: 10rem;
-    margin: 5 rem auto;
-  }
-
-  .heading{
-    margin: 2rem auto;
-    text-align: center;
+body {
+  background-color: #222;
+  background-image: url("https://img.freepik.com/free-vector/digital-technology-background-with-hexagon-frame-gold-tone_53876-117567.jpg?w=740&t=st=1670412172~exp=1670412772~hmac=e84c306e0a9facfc40beeaac405f1f48305c5d9e462f1959dc3e92e61a1f40d7");
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Ubuntu', sans-serif;
+  color: goldenrod;
 }
 
-  .bio{
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-
-  .dp{
-    height: 12rem;
-    margin-top: 2.5rem;
-  }
-
-  .rows {
-    width: 30%;
-    margin: auto;
-    display: inline-block;
-    text-align: center;
-  }
-
-  .columns{
-    margin-top: 2rem;
-    display: flex;
-    justify-content: space-between; 
-    margin-bottom: 2rem;
-  }
-
-  .rowimg{
-    width: 50%;
-    border: solid goldenrod 0.5rem;
-  }
-
-  .normaltext{
-    margin-top: 1rem;
-    color:#d5d5d3;
-  }
-
-  .contact{
-    margin-top: 2rem;
-    background: goldenrod;
-    text-align: center;
-  }
-
-  .context{
-    color: black;
-  }
-
-  .contactlink {
-    color: #222;
-  }
-
-  .contactlink:hover{
-    color: #7DF9FF;
-  }
-
-  .nav-link{
-    color: #222;
-    font-family: 'Kdam Thmor Pro', sans-serif;
-
-  }
-  .nav-link:hover{
-    color: goldenrod;
-  }
-
-  .logo{
-    width: 3rem;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
-  .navbar-custom{
-    background-color: goldenrod;
-    margin-right: 15%;
-    margin-left: 15%;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 0rem;
-    padding-top: 0rem;
-  }
-
-  .dropdown-menu {
-    background-color: goldenrod;
-    min-width: inherit;
-  }
 
 
-  .dropdown-item{
-    text-align: center;
-  }
+h1 {
+  margin: 2rem auto 0.5rem auto;
+  font-family: 'Amatic SC', cursive;
+  color: #d5d5d3;
+}
 
-  .navbar {
-    border-radius: 30px;
+h2 {
+  /* font-family: 'Zen Dots', cursive; */
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  color: #d5d5d3;
+  margin: 0.5rem auto;
+}
+
+hr {
+  border: dashed goldenrod 0.5rem;
+  border-bottom: none;
+  margin: 0 auto;
+  width: 20%;
+}
+
+
+
+
+.ico {
+  height: 10rem;
+  margin: 5 rem auto;
+}
+
+.heading {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.bio {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.dp {
+  height: 12rem;
+  margin-top: 2.5rem;
+}
+
+.rows {
+  width: 30%;
+  margin: auto;
+  display: inline-block;
+  text-align: center;
+}
+
+.columns {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.rowimg {
+  width: 50%;
+  border: solid goldenrod 0.5rem;
+}
+
+.normaltext {
+  margin-top: 1rem;
+  color: #d5d5d3;
+}
+
+.contact {
+  margin-top: 2rem;
+  background: goldenrod;
+  text-align: center;
+}
+
+.context {
+  color: black;
+}
+
+.contactlink {
+  color: #222;
+}
+
+.contactlink:hover {
+  color: #7DF9FF;
+}
+
+.nav-link {
+  color: #222;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+
+.nav-link:hover {
+  color: goldenrod;
+}
+
+.logo {
+  width: 3rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-custom {
+  background-color: goldenrod;
+  margin-right: 15%;
+  margin-left: 15%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 0rem;
+  padding-top: 0rem;
+}
+
+.dropdown-menu {
+  background-color: goldenrod;
+  min-width: inherit;
+}
+
+
+.dropdown-item {
+  text-align: center;
+}
+
+.navbar {
+  border-radius: 30px;
 }
 
 .text-responsive {
   font-size: calc(100% + 1vw + 1vh);
 }
 
-.btn-custom{
+.btn-custom {
   padding-left: 0;
 }
-
