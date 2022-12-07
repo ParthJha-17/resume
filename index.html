@@ -21,15 +21,24 @@
 
 <body>
     <nav class="navbar navbar-expand-sm navbar-custom">
-        <a class="navbar-brand ms-5%" href=""><img class="logo" src="images/sunglasses.png"></a>
+        <div class="container-fluid">
+        <img class="navbar-brand logo" src="images/sunglasses.png">
+        <div class="mobiletoggler">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        </div>
         <!-- <ul class="navbar-nav ms-auto">
             <li class="nav-item"><a class="btn btn-custom dropdown-toggle" href="">Projects</a>
             </li>
             <li class="nav-item"><a class="nbtn btn-custom dropdown-toggle" href="">Contact</a>
             </li>
         </ul> -->
+        
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav ms-auto">
-            <li>
+            <li class="custom">
                 <div class="dropdown show">
                     <a class="btn btn-custom dropdown-toggle contactlink" href="#" role="button" id="ContactMenuLink"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -42,7 +51,7 @@
                     </div>
                 </div>
             </li>
-            <li>
+            <li class="custom">
                 <div class="dropdown show">
                     <a class="btn btn-custom dropdown-toggle contactlink" href="#" role="button" id="ProjectsMenuLink"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -56,6 +65,8 @@
                 </div>
             </li>
         </ul>
+        </div>
+        </div>
 
     </nav>
     <div class="heading">
@@ -107,8 +118,7 @@
         <a class="contactlink" href="https://www.linkedin.com/in/parth-jha-a34398222/"
             alt="LinkedIN - Parth Jha">LinkedIn</a>
         <a class="contactlink" href="https://www.instagram.com/parthjha.17/" alt="Instagram - Parth Jha">Instagram</a>
-        <a class="contactlink" href="mailto:parth.jha.soft@gmail.com"
-            alt="GMail - Parth Jha">E-Mail</a>
+        <a class="contactlink" href="mailto:parth.jha.soft@gmail.com" alt="GMail - Parth Jha">E-Mail</a>
         <p class="context">@ 2023 All Copyright Reserved | Parth Jha</p>
     </div>
 </body>

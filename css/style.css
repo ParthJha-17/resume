@@ -103,7 +103,9 @@
   }
 
   .logo{
-    width: 7%;
+    width: 3rem;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .navbar-custom{
@@ -129,5 +131,12 @@
   .navbar {
     border-radius: 30px;
 }
-  
+
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
+}
+
+.btn-custom{
+  padding-left: 0;
+}
 
