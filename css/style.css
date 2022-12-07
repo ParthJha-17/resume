@@ -28,13 +28,8 @@
     width: 20%;
   }
 
-  a{
-    color:#222;
-  }
 
-  a:hover{
-    color: brown;
-  }
+
 
   .ico {
     height: 10rem;
@@ -88,6 +83,46 @@
 
   .context{
     color: black;
+  }
+
+  .contactlink {
+    color:#222;
+  }
+
+  .contactlink:hover{
+    color: brown;
+  }
+
+  .nav-link{
+    color: #222;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+  }
+  .nav-link:hover{
+    color: brown;
+  }
+
+  .navbar-brand{
+    font-family: 'Amatic SC', cursive;
+  }
+
+  .navbar-custom{
+    background-color: #7DF9FF;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+  }
+
+  .dropdown-menu {
+    background-color: #7DF9FF;
+    min-width: inherit;
+  }
+
+  .dropdown-item{
+    text-align: center;
   }
 
   
