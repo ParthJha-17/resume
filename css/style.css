@@ -3,7 +3,7 @@
     background-color: #222;
     align-items: center;
     font-family: 'Ubuntu', sans-serif;
-    color: #7DF9FF;
+    color: goldenrod;
   }
 
 
@@ -22,7 +22,7 @@
   }
 
   hr {
-    border: dashed #7DF9FF 0.5rem;
+    border: dashed goldenrod 0.5rem;
     border-bottom: none;
     margin: 0 auto;
     width: 20%;
@@ -67,7 +67,7 @@
 
   .rowimg{
     width: 50%;
-    border: solid #7DF9FF 0.5rem;
+    border: solid goldenrod 0.5rem;
   }
 
   .normaltext{
@@ -77,7 +77,7 @@
 
   .contact{
     margin-top: 2rem;
-    background: #7DF9FF;
+    background: goldenrod;
     text-align: center;
   }
 
@@ -86,11 +86,11 @@
   }
 
   .contactlink {
-    color:#222;
+    color: #222;
   }
 
   .contactlink:hover{
-    color: brown;
+    color: #7DF9FF;
   }
 
   .nav-link{
@@ -99,15 +99,15 @@
 
   }
   .nav-link:hover{
-    color: brown;
+    color: goldenrod;
   }
 
-  .navbar-brand{
-    font-family: 'Amatic SC', cursive;
+  .logo{
+    width: 7%;
   }
 
   .navbar-custom{
-    background-color: #7DF9FF;
+    background-color: goldenrod;
     margin-right: 15%;
     margin-left: 15%;
     padding-left: 1%;
@@ -117,13 +117,17 @@
   }
 
   .dropdown-menu {
-    background-color: #7DF9FF;
+    background-color: goldenrod;
     min-width: inherit;
   }
+
 
   .dropdown-item{
     text-align: center;
   }
 
+  .navbar {
+    border-radius: 30px;
+}
   
 
